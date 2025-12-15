@@ -1,0 +1,85 @@
+# -------------------
+# C++ Compiled Files
+# -------------------
+# Executables (Windows)
+*.exe
+
+# Executables (Linux/Mac)
+*.out
+*.app
+
+# Object files and libraries
+*.o
+*.obj
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# -------------------
+# Python Generated Files
+# -------------------
+# Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+
+# -------------------
+# Editor & IDE Settings
+# -------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# Competitive Programming Helper (CPH) Extension
+.cph/
+
+# JetBrains (CLion, PyCharm)
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Mac OS System Files
+.DS_Store
+
+# -------------------
+# Competitive Programming Input/Output
+# -------------------
+# Common names for local testing files
+input.txt
+output.txt
+error.txt
+in.txt
+out.txt
+test_input.txt
+test_output.txt
