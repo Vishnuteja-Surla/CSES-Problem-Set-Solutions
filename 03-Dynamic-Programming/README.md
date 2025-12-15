@@ -3,6 +3,10 @@
 ## Problems
 
 ### 60. Dice Combination
+[View Solution](./060-Dice-Combinations.cpp) | [CSES Link](https://cses.fi/problemset/task/1633)
+
+<details>
+<summary><strong>Show Problem Statement</strong></summary>
 
 Your task is to count the number of ways to construct sum n by throwing a dice one or more times. Each throw produces an outcome between 1 and  6.
 For example, if n=3, there are 4 ways:
@@ -11,12 +15,11 @@ For example, if n=3, there are 4 ways:
 - 2+1
 - 3
 
-
 **Input**
 
-The only input line has an integer n.
+The only input line has an integer $n$.
 
-**Output** 
+**Output**
 
 Print the number of ways modulo $10^9+7$.
 
@@ -26,12 +29,14 @@ Print the number of ways modulo $10^9+7$.
 
 **Example**
 
-Input:
 
+```text
+Input:
 3
 
 Output:
-
 4
+```
+</details>
 
 ---
