@@ -104,6 +104,89 @@ Output:
 
 ---
 
+### 4. Increasing Array
+[View Solution](./004-Increasing-Array.cpp) | [CSES Link](https://cses.fi/problemset/task/1094)
+
+<details>
+<summary><strong>Show Problem Statement</strong></summary>
+
+You are given an array of $n$ integers. You want to modify the array so that it is increasing, i.e., every element is at least as large as the previous element.
+
+On each move, you may increase the value of any element by one. What is the minimum number of moves required?
+
+**Input**
+
+The first input line contains an integer $n$: the size of the array.
+
+Then, the second line contains n integers $x_1,x_2,\ldots,x_n$: the contents of the array.
+
+**Output**
+
+Print the minimum number of moves.
+
+**Constraints**
+- $1 \le n \le 2 \cdot 10^5$
+- $1 \le x_i \le 10^9$
+
+**Example**
+
+```text
+Input:
+5
+3 2 5 1 7
+
+Output:
+5
+```
+</details>
+
+---
+
+### 5. Permutations
+[View Solution](./005-Permutations.cpp) | [CSES Link](https://cses.fi/problemset/task/1070)
+
+<details>
+<summary><strong>Show Problem Statement</strong></summary>
+
+A permutation of integers $1,2,\ldots,n$ is called beautiful if there are no adjacent elements whose difference is $1$.
+
+Given $n$, construct a beautiful permutation if such a permutation exists.
+
+**Input**
+
+The only input line contains an integer $n$.
+
+**Output**
+
+Print a beautiful permutation of integers $1,2,\ldots,n$. If there are several solutions, you may print any of them. If there are no solutions, print "NO SOLUTION".
+
+**Constraints**
+- $1 \le n \le 10^6$
+
+**Example-1**
+
+```text
+Input:
+5
+
+Output:
+4 2 5 3 1
+```
+
+**Example-2**
+
+```text
+Input:
+3
+
+Output:
+NO SOLUTION
+```
+
+</details>
+
+---
+
 ### 6. Missing Number
 [View Solution](./006-Number-Spiral.cpp) | [CSES Link](https://cses.fi/problemset/task/1071)
 
