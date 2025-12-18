@@ -6,10 +6,10 @@ int main(){
     ios::sync_with_stdio(0);
     cin.tie(0);
 
-    int t;
+    long long t;
     cin >> t;
 
-    for(int run=0; run<t; run++){
+    for(long long run=0; run<t; run++){
         long long x, y;
         cin >> y >> x;
 
@@ -27,7 +27,7 @@ int main(){
         }
         else{
             if(y == z){
-                ans = innerArea + y;
+                ans = innerArea + x;
             }
             else{
                 ans = (z*z) - (y-1);
