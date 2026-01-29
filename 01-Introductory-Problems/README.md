@@ -358,3 +358,40 @@ Output:
 </details>
 
 ---
+
+
+### 10. Trailing Zeros
+[View Solution](./010-Trailing-Zeros.cpp) | [CSES Link](https://cses.fi/problemset/task/1618)
+
+<details>
+<summary><strong>Show Problem Statement</strong></summary>
+
+Your task is to calculate the number of trailing zeros in the factorial $n!$.
+
+For example, $20!=2432902008176640000$ and it has $4$ trailing zeros.
+
+**Input**
+
+The only input line contains an integer $n$.
+
+**Output**
+
+Print the number of trailing zeros in $n!$.
+
+**Constraints:-**
+
+- $1 \le n \le 10^9$
+
+**Example**
+
+```text
+Input:
+20
+
+Output:
+4
+```
+
+</details>
+
+---
